@@ -2,11 +2,17 @@
   "name": "clicker-sample",
   "version": "1.0.0",
   "scripts": {
-    "build": "browserify src/main.js -t babelify > js/main.js"
+    "rx": "browserify src/main-rx.js -t babelify > js/main-rx.js",
+    "stream": "browserify src/main-stream.js -t babelify > js/main-stream.js",
+    "react": "browserify src/main-react.js -t babelify > js/main-react.js",
+    "build": "npm run rx & npm run stream & npm run react"
   },
   "dependencies": {
     "babelify": "^6.1.0",
     "browserify": "^10.1.3",
+    "react": "^0.13.3",
+    "rx": "^2.5.2",
+    "rx-dom": "^5.0.4",
     "stream-browserify": "^1.0.0"
   }
 }

@@ -9,7 +9,7 @@ a {
 }
 
 .sample {
-	width: 950px;
+	width: 85%;
 	margin: 15px auto 0;
 }
 
@@ -30,7 +30,6 @@ a {
 .sample-action {
 	margin-top: 30px;
 }
-
 
 .btn {
 	display: inline-block;
