@@ -1,0 +1,51 @@
+html,
+body,
+div,
+h1,
+span,
+a {
+	margin: 0;
+	padding: 0;
+}
+
+.sample {
+	width: 85%;
+	margin: 15px auto 0;
+}
+
+.sample-head {
+}
+
+.sample-body {
+	margin-top: 30px;
+}
+
+.sample-count {
+}
+
+.sample-count span {
+	margin-left: 5px;
+}
+
+.sample-action {
+	margin-top: 30px;
+}
+
+.btn {
+	display: inline-block;
+	padding: .5em 1em;
+	background: white;
+	text-decoration: none;
+	color: #333;
+	border-radius: .5em;
+	border: 1px solid #ccc;
+}
+
+.btn:hover {
+	opacity: .7;
+}
+
+.btn:active {
+	opacity: .7;
+	background: #cec;
+}
