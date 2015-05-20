@@ -1,5 +1,4 @@
 import Rx from 'rx';
-import 'rx-dom';
 
 
 document.addEventListener('DOMContentLoaded', () => {
